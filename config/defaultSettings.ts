@@ -15,7 +15,7 @@ const Settings: ProLayoutProps & {
   fixedHeader: false,
   fixSiderbar: true,
   colorWeak: false,
-  title: '灵犀 BI',
+  title: '智能 BI',
   pwa: true,
   logo: 'https://article-images.zsxq.com/Fk6Ls-IVT3QjoPEdC-cUUnA1-Jh_',
   iconfontUrl: '',

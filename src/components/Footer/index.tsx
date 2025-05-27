@@ -3,7 +3,7 @@ import { DefaultFooter } from '@ant-design/pro-components';
 import '@umijs/max';
 import React from 'react';
 const Footer: React.FC = () => {
-  const defaultMessage = 'C1own';
+  const defaultMessage = ' ';
   const currentYear = new Date().getFullYear();
   return (
     <DefaultFooter
@@ -11,20 +11,6 @@ const Footer: React.FC = () => {
         background: 'none',
       }}
       copyright={`${currentYear} ${defaultMessage}`}
-      links={[
-        {
-          key: 'github',
-          title: <GithubOutlined />,
-          href: 'https://github.com/dnwwdwd/Lingxi-BI',
-          blankTarget: true,
-        },
-          {
-              key: '灵犀BI',
-              title: '灵犀BI',
-              href: 'https://github.com/dnwwdwd/Lingxi-BI',
-              blankTarget: true,
-          },
-      ]}
     />
   );
 };
